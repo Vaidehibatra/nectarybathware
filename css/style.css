@@ -72,6 +72,13 @@ a.nav-link{
   }
 }
 
+/* Media query for smaller screens (e.g., mobile devices) */
+@media only screen and (max-width: 768px) {
+  .img-logo {
+      width: 30% !important;
+  }
+}
+
 /* Adjust size for iPad screens */
 @media (min-width: 768px) and (max-width: 1024px) {
 
