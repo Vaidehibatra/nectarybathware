@@ -10,13 +10,10 @@
   text-shadow:1px 1px 2px rgba(0,0,0,0.4);
 }
 .dropdown-menu {
-  background:#ffffff;
-}
-a.dropdown-item {
-  color:#000000 !important
+  background:#000000;
 }
 .nav-item a{
-  color:#ffffff;
+  color:#fffefe;
 }
 .nav-item a:hover {
   color:#fff
@@ -32,28 +29,14 @@ a.dropdown-item {
   z-index:123;
   padding-bottom:120px;
 }
-a.dropdown-item{
-  color: #000000;
-}
 
-a.nav-link{
-  color: #ffffff;
-}
 
 /* mobile view */
 @media (max-width: 767px) {
-  #mainNavigation {
-    padding-bottom: 0;
-  }
-  .navbar-nav {
-    color: #000000;
-  }
-  .navbar-nav .nav-item {
-    margin: 10px;
-    min-width: auto;
-  }    
-  #mainNavigation a {
-    font-size: 10px; /* Decrease the font size for mobile view */
+  .nav-item a{
+    color:#ffffff;
+    background-color: #000000;
+    width: 50%;
   }
   #mainNavigation img {
     width: 15%; /* Adjust the logo size for mobile view */
@@ -61,21 +44,10 @@ a.nav-link{
   .quote {
     font-size: 13px; /* Adjust the font size for mobile view */
   }
-  .carousel-item video, .carousel-item img {
-    width: 100% !important; /* Make the image fill the width of the carousel */
-    height: auto !important; /* Allow the image to maintain its aspect ratio */
-  }
   .faucet-card {
     width: 100%;
     margin: 0 auto; /* Center the element horizontally */
     justify-content: center; /* Optional: Center the content vertically if it's a flex container */
-  }
-}
-
-/* Media query for smaller screens (e.g., mobile devices) */
-@media only screen and (max-width: 768px) {
-  .img-logo {
-      width: 30% !important;
   }
 }
 
@@ -85,6 +57,9 @@ a.nav-link{
   .col-md-3 {
     width: 48%; /* Adjust the width to allow two cards side by side */
     margin-right: 2%; /* Add a small margin between the cards */
+  }
+  .nav-item{
+    min-width:15vw;
   }
 }
 
