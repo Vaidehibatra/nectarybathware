@@ -12,11 +12,14 @@
 .dropdown-menu {
   background:#000000;
 }
+.dropdown-menu:hover {
+  background:#000000;
+}
 .nav-item a{
   color:#fffefe;
 }
 .nav-item a:hover {
-  color:#fff
+  color:#ffffff
 }
 .nav-item{
   min-width:12vw;
