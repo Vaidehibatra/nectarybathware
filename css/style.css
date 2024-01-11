@@ -12,8 +12,8 @@
 .dropdown-menu {
   background:#000000;
 }
-.dropdown-menu:hover {
-  background:#000000;
+.dropdown-item:hover{
+  background-color: #000000;
 }
 .nav-item a{
   color:#fffefe;
